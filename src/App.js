@@ -1,8 +1,20 @@
 import '../src/assets/css/master.min.css';
-
+import Header from './assets/components/Header/Header';
+import Hero from './assets/components/Hero/Hero';
+import ProductInfo from './assets/components/Info/ProductInfo';
+import AddToCart from './assets/components/Cart/AddToCart';
 
 function App() {
-  return <div>starter</div>
+  return (
+    <main>
+      <Header />
+      <Hero />
+      <div className='side-hero'>
+        <ProductInfo />
+        <AddToCart />
+      </div>
+    </main>
+  );
 }
 
 export default App;
