@@ -8,7 +8,7 @@ import product_4 from '../../images/image-product-4.jpg';
 
 const HeroImages = () => {
   return (
-    <div className='hero-container'>
+    <>
       <div className='hero-images'>
         <img src={product_1} alt='product-1' />
         <img src={product_2} alt='product-2' />
@@ -16,7 +16,7 @@ const HeroImages = () => {
         <img src={product_4} alt='product-4' />
       </div>
       <HeroButtons />
-    </div>
+    </>
   );
 };
 

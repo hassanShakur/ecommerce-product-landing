@@ -1,0 +1,37 @@
+.hero-main {
+  display: flex;
+  padding: 10vmin;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  img {
+    width: 20vmax;
+  }
+
+  .hero-images {
+    width: 100%;
+    grid-column: 1;
+    position: relative;
+    padding: .8em;
+    img {
+      position: absolute;
+      width: 28rem;
+      border-radius: 1rem;
+      
+    }
+  }
+
+  .hero-thumbs {
+    grid-row: 2;
+  }
+
+  .hero-btns {
+    img {
+        width: 5vmax;
+        position: absolute;
+    }
+  }
+}

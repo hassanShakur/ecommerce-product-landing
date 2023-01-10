@@ -8,10 +8,12 @@ function App() {
   return (
     <main>
       <Header />
-      <Hero />
-      <div className='side-hero'>
-        <ProductInfo />
-        <AddToCart />
+      <div className='hero-main'>
+        <Hero />
+        <div className='side-hero'>
+          <ProductInfo />
+          <AddToCart />
+        </div>
       </div>
     </main>
   );
