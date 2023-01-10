@@ -1,7 +1,13 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+@import './attribute';
+@import './header';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
 }

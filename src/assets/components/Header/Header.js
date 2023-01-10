@@ -8,12 +8,12 @@ const Header = () => {
   return (
     <header className='header'>
       <div>
-        <img src={menu} alt='menu' />
-        <img src={logo} alt='Sneakers logo' />
+        <img id='menu' src={menu} alt='menu' />
+        <img id='logo' src={logo} alt='Sneakers logo' />
       </div>
-      <div>
+      <div className='profile'>
         <img src={cart} alt='cart' />
-        <img src={avatar} alt='customer avatar' />
+        <img id='avatar' src={avatar} alt='customer avatar' />
       </div>
     </header>
   );

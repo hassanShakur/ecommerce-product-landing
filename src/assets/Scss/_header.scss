@@ -1,0 +1,26 @@
+header {
+  width: 93%;
+  height: 14vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+
+  .profile {
+    width: 11%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #avatar {
+    width: 6.2vmin;
+  }
+}
