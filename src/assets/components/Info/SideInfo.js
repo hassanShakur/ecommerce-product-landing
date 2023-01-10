@@ -1,17 +1,16 @@
 import React from 'react';
+import AddToCart from '../Cart/AddToCart'
 
-const ProductInfo = () => {
+const SideInfo = () => {
   return (
-    <article className='info'>
-      <div>
-        <span className='company'>Sneaker Company</span>
-        <span className='name'>Fall Limited Edition Sneakers</span>
-      </div>
-      <div className='para'>
+    <div className='side-hero'>
+      <h5 className='company'>Sneaker Company</h5>
+      <h1 className='name'>Fall Limited Edition Sneakers</h1>
+      <p className='para'>
         These low-profile sneakers are your perfect casual wear companion.
         Featuring a durable rubber outer sole, they’ll withstand everything the
         weather can offer.
-      </div>
+      </p>
       <div className='item-price'>
         <div>
           <span className='curr-price'>$125.00</span>
@@ -19,8 +18,10 @@ const ProductInfo = () => {
         </div>
         <div className='old-price'>$250.00</div>
       </div>
-    </article>
+
+      <AddToCart />
+    </div>
   );
 };
 
-export default ProductInfo;
+export default SideInfo;

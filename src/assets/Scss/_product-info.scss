@@ -1,0 +1,93 @@
+.side-hero {
+  padding: 10vmin 8vmin;
+  padding-right: 1vmin;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .company {
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    color: $primary-orange;
+  }
+
+  .name {
+    font-size: 41px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-top: 2.2vmin;
+
+    color: $dark-blue;
+  }
+
+  .item-price {
+    margin-bottom: 1.5rem;
+
+    .curr-price {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 1vmin;
+      line-height: 2;
+      letter-spacing: 1px;
+    }
+
+    .discount {
+      margin-left: 0.5rem;
+      background-color: $pale-orange;
+      color: $primary-orange;
+      font-weight: 700;
+      padding: 0.1rem 0.6rem;
+      border-radius: 0.2rem;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: $grey-blue;
+    }
+  }
+
+  .add-cart {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      // padding: 1rem 4rem;
+      padding: 1rem;
+      border-radius: 1vmin;
+      border: none;
+      font-weight: 700;
+    }
+
+    .controls {
+      width: 35%;
+      display: flex;
+      font-size: 18px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .add {
+      font-size: 17px;
+      width: 62%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: $primary-orange;
+      color: $white;
+
+      span {
+        margin: 0 1vmin;
+      }
+
+      
+    }
+  }
+}

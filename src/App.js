@@ -1,8 +1,7 @@
 import '../src/assets/css/master.min.css';
 import Header from './assets/components/Header/Header';
 import Hero from './assets/components/Hero/Hero';
-import ProductInfo from './assets/components/Info/ProductInfo';
-import AddToCart from './assets/components/Cart/AddToCart';
+import SideInfo from './assets/components/Info/SideInfo';
 
 function App() {
   return (
@@ -10,10 +9,7 @@ function App() {
       <Header />
       <div className='hero-main'>
         <Hero />
-        <div className='side-hero'>
-          <ProductInfo />
-          <AddToCart />
-        </div>
+        <SideInfo />
       </div>
     </main>
   );

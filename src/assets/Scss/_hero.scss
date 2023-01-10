@@ -1,9 +1,11 @@
 .hero-main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 10vmin;
   padding-bottom: 0.8vmax;
   height: 85vh;
   width: 100%;
+  overflow: hidden;
 }
 
 .hero {
@@ -32,6 +34,11 @@
 
   .hero-thumbs {
     grid-row: 2;
+    // width: 28rem;
+    // padding-right: 1rem;
+    // margin: 0 auto;
+    align-self: center;
+    width: 90%;
     grid-column: 1;
     display: flex;
     justify-content: space-between;
@@ -40,9 +47,13 @@
     img {
       width: 5.5rem;
       padding: 0;
-      margin: 0 1vmax;
       border-radius: 0.6rem;
+      margin-left: 1rem;
       //   aspect-ratio: 1/1;
+
+      &:hover {
+        border: 1.4px solid hsl(26, 100%, 55%);
+      }
     }
   }
 
