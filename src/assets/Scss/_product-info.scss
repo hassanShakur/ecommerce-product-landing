@@ -29,13 +29,23 @@
 
   .item-price {
     margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
 
     .curr-price {
-      font-size: 30px;
+      font-size: 28px;
       font-weight: 700;
-      margin-bottom: 1vmin;
+      margin-bottom: 0;
       line-height: 2;
       letter-spacing: 1px;
+      
     }
 
     .discount {
@@ -58,7 +68,6 @@
     justify-content: space-between;
 
     button {
-      // padding: 1rem 4rem;
       padding: 1rem;
       border-radius: 1vmin;
       border: none;
@@ -86,8 +95,6 @@
       span {
         margin: 0 1vmin;
       }
-
-      
     }
   }
 }

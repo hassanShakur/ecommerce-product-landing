@@ -1,19 +1,27 @@
 header {
   width: 93%;
-  height: 14vh;
+  
   border-bottom: 1px solid hsl(220, 14%, 75%);
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   padding: 0;
+  padding: 2rem 0;
 
-  .profile {
-    width: 11%;
+  div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .links {
+    width: 50%;
+  }
+
+  .profile {
+    width: 11%;
   }
 
   #menu {

@@ -10,7 +10,7 @@ const HeroImages = () => {
   return (
     <>
       <div className='hero-images'>
-        <img src={product_1} alt='product-1' />
+        <img src={product_1} alt='product-1' className='active'/>
         <img src={product_2} alt='product-2' />
         <img src={product_3} alt='product-3' />
         <img src={product_4} alt='product-4' />

@@ -1,0 +1,21 @@
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  opacity: 0;
+  display: flex;
+  background-color: hsla(218, 12%, 13%, 0.9);
+
+  div {
+    margin: 0 auto;
+    width: 60%;
+
+    .hero-thumbs {
+      margin-top: 1rem;
+      width: 100%;
+    }
+  }
+}

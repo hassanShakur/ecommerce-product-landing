@@ -1,4 +1,4 @@
-.hero-main {
+.hero-main, .modal {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 10vmin;
@@ -12,31 +12,27 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 5fr 1fr;
-  //   gap: 5rem;
-
-  img {
-    // width: 20vmax;
-  }
 
   .hero-images {
     width: 100%;
     grid-row: 1;
     grid-column: 1;
-    // position: relative;
     padding: 0.8em;
 
     img {
       position: absolute;
       width: 28rem;
+      opacity: 0;
       border-radius: 1rem;
+    }
+
+    .active {
+      opacity: 1;
     }
   }
 
   .hero-thumbs {
     grid-row: 2;
-    // width: 28rem;
-    // padding-right: 1rem;
-    // margin: 0 auto;
     align-self: center;
     width: 90%;
     grid-column: 1;
@@ -49,7 +45,6 @@
       padding: 0;
       border-radius: 0.6rem;
       margin-left: 1rem;
-      //   aspect-ratio: 1/1;
 
       &:hover {
         border: 1.4px solid hsl(26, 100%, 55%);
