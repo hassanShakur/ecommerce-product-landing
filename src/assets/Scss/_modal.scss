@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 2;
+  z-index: -2;
   opacity: 0;
   display: flex;
   background-color: hsla(218, 12%, 13%, 0.9);
@@ -18,4 +18,9 @@
       width: 100%;
     }
   }
+}
+
+.open-modal {
+  z-index: 2;
+  opacity: 1;
 }

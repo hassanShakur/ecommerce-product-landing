@@ -3,7 +3,7 @@ import Hero from '../Hero';
 
 const Modal = () => {
   return (
-    <div className='modal'>
+    <div className='modal open-modal'>
       <div>
         <Hero />
       </div>

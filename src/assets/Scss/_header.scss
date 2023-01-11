@@ -1,23 +1,28 @@
 header {
-  width: 93%;
-  
+  width: 90%;
+
   border-bottom: 1px solid hsl(220, 14%, 75%);
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   padding: 0;
-  padding: 2rem 0;
 
   div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
+    position: relative;
   }
 
   .links {
+    padding: 5vh 0;
     width: 50%;
+
+    img {
+      width: 14vh;
+    }
   }
 
   .profile {
@@ -30,5 +35,11 @@ header {
 
   #avatar {
     width: 6.2vmin;
+    border-radius: 50%;
+
+    &:hover {
+      cursor: pointer;
+      border: 3px solid hsl(26, 100%, 55%);
+    }
   }
 }
